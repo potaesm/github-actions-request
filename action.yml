@@ -1,4 +1,4 @@
-name: 'Request'
+name: 'Axios Request'
 description: 'Request for GitHub Actions using Axios'
 inputs:
   url:
