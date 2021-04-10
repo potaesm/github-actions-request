@@ -1,7 +1,7 @@
 name: Cron request example
 on:
   schedule:
-    - cron: "*/15 7-19 * * *"
+    - cron: "* * * * *"
 jobs:
   notify:
     runs-on: ubuntu-latest
