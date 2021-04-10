@@ -12,3 +12,4 @@ jobs:
         with:
           url: ${{ secrets.URL }}
           method: get
+          auth: "{ username: 'gtz', password: 'node' }"
