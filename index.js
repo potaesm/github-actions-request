@@ -9,7 +9,6 @@ try {
         if (!!input) {
             if (input[0] === '{') {
                 config[inputKey] = JSON.parse(input);
-                console.log(config[inputKey]);
             } else {
                 config[inputKey] = input;
             }
