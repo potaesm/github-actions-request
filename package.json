@@ -1,5 +1,5 @@
 {
-  "name": "github-actions-request",
+  "name": "@potaesm/github-actions-request",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
