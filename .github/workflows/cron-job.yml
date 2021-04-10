@@ -1,5 +1,7 @@
 name: Cron request example
 on:
+  push:
+    branches: [ master ]
   schedule:
     - cron: "* * * * *"
 jobs:
