@@ -1,9 +1,9 @@
 name: Cron request example
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
 jobs:
-  notify:
+  ping:
     runs-on: ubuntu-latest
     steps:
       - uses: potaesm/github-actions-request@1.0.2
