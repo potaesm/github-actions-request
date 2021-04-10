@@ -8,7 +8,7 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - uses: potaesm/github-actions-request@1.0.2
+      - uses: potaesm/github-actions-request
         with:
           url: ${{ secrets.URL }}
           method: get
