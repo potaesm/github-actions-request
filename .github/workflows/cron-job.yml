@@ -6,7 +6,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - uses: potaesm/github-actions-request
+      - uses: potaesm/github-actions-request@1.0.2
         with:
           url: ${{ secrets.URL }}
           method: get
