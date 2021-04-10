@@ -3,12 +3,13 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "*/15 7-19 * * *"
+    - cron: "00,20,40 14-23 * * *"
+    - cron: "00,20,40 00-02 * * *"
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - uses: potaesm/github-actions-request@1.0.6
+      - uses: potaesm/github-actions-request@1.0.7
         with:
           url: ${{ secrets.URL }}
           method: get

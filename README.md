@@ -5,7 +5,7 @@
 # Usage
 
 ```yml
-uses: potaesm/github-actions-request@1.0.6
+uses: potaesm/github-actions-request@1.0.7
 with:
   url: /user
   method: get

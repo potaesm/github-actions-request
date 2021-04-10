@@ -16,7 +16,7 @@ try {
     }
     axios(config)
         .then(function (response) {
-            console.log(response);
+            // console.log(JSON.stringify(response.data, null, 6));
             core.setOutput('isError', !(response.status >= 200 && response.status < 300));
         })
         .catch(function (error) {
