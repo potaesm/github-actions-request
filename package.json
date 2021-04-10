@@ -1,0 +1,28 @@
+{
+  "name": "github-actions-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potaesm/github-actions-request.git"
+  },
+  "keywords": [
+    "Github",
+    "Actions",
+    "Request"
+  ],
+  "author": "Suthinan Musitmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potaesm/github-actions-request/issues"
+  },
+  "homepage": "https://github.com/potaesm/github-actions-request#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "axios": "^0.21.1"
+  }
+}

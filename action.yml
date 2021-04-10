@@ -1,0 +1,36 @@
+name: 'Request'
+description: 'Request for GitHub Actions using Axios'
+inputs:
+  url:
+    description: '`url` is the server URL that will be used for the request'
+    required: true
+  method:
+    description: '`method` is the request method to be used when making the request'
+    required: true
+  baseURL:
+    description: '`baseURL` will be prepended to `url` unless `url` is absolute'
+    required: false
+  headers:
+    description: '`headers` are custom headers to be sent'
+    required: false
+  params:
+    description: '`params` are the URL parameters to be sent with the request'
+    required: false
+  data:
+    description: '`data` is the data to be sent as the request body'
+    required: false
+  timeout:
+    description: '`timeout` specifies the number of milliseconds before the request times out'
+    required: false
+  auth:
+    description: '`auth` indicates that HTTP Basic auth should be used, and supplies credentials'
+    required: false
+  proxy:
+    description: '`proxy` defines the hostname, port, and protocol of the proxy server'
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'send'
+  color: 'orange'
