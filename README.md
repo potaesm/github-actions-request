@@ -1,6 +1,6 @@
 # Request
 
-Request for GitHub Actions using Axios.
+[Request for GitHub Actions using Axios.](https://github.com/potaesm/github-actions-request)
 
 # Usage
 

@@ -1,0 +1,12 @@
+name: Cron request example
+on:
+  schedule:
+    - cron: "*/15 7-19 * * *"
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: potaesm/github-action-request
+        with:
+          url: ${{ secrets.URL }}
+          method: get
