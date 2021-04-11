@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "00,20,40 14-23 * * *"
+    - cron: "00,20,40 00-10 * * *"
 jobs:
   ping:
     runs-on: ubuntu-latest
